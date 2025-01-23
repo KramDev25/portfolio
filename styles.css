@@ -1,0 +1,247 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+@font-face {
+    font-family:Satisfy;
+    src: url(fonts/Satisfy-Regular.ttf);
+}
+
+@font-face {
+    font-family:BarlowCondensed;
+    src: url(fonts/BarlowCondensed-Light.ttf);
+}
+
+nav{
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+
+
+nav .navLogo{
+    font-family: Satisfy;
+    font-size: 24px;
+    letter-spacing: -1px;
+    font-size: 3em;
+    cursor: pointer;
+}
+
+ 
+.navMenu li a{
+    display: block;
+    padding: 20px 20px;
+    color: black;
+    font-size: 1.5em;
+    font-family:BarlowCondensed;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.navMenu li a:hover{
+    background-color: #CABDD9;
+    color: white;
+}
+
+nav .messageMeBtn{
+    padding: 15px 50px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #CABDD9;
+    color: white;
+    font-family:BarlowCondensed;
+    font-weight: 600;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+nav .messageMeBtn:active{
+    background-color:darkgray;
+    color:black;
+}
+
+article{
+    padding: 10px 20px;
+    text-align: justify;
+    font-family:BarlowCondensed;
+}
+
+article h1{
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.imgCont img{
+    width: 100%;
+}
+
+.messageMeCont{
+    text-align: end;
+}
+
+main .messageMeBtn{
+    padding: 15px 50px;
+    margin: 30px 0 0 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #CABDD9;
+    color: white;
+    font-family:BarlowCondensed;
+    font-weight: 600;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+main .messageMeBtn:active{
+    background-color:darkgray;
+    color:black;
+}
+
+.projectSection{
+    padding: 20px 55px;
+    text-align: center;
+}
+
+.projectSection h1{
+    font-family:BarlowCondensed;
+    font-weight: 600;
+    font-size: 3em;
+    margin-bottom: 50px;
+}
+
+
+.projCont1,
+.projCont2,
+.projCont3{
+    text-align: center;
+    margin-bottom: 40px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius:10px;
+    box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.486);
+}
+
+.firstProject,
+.secondProject,
+.thirdProject{
+   
+}
+
+.projCont1 img,
+.projCont2 img,
+.projCont3 img{
+    width: 100%;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+.projCont1 span,
+.projCont2 span,
+.projCont3 span{
+    padding: 30px;
+
+}
+
+.firstProject span,
+.secondProject span,
+.thirdProject span{
+    display: block;
+    font-family:BarlowCondensed;
+    font-weight: 600;
+    font-size: 2em
+}
+
+.projectSection a{
+    color: black;
+}
+
+.projectSection a{
+    color: black;
+}
+
+
+.techStackSection{
+    padding: 20px 55px;
+    text-align: center;
+}
+
+.techStackSection h1{
+    font-family:BarlowCondensed;
+    font-weight: 600;
+    font-size: 3em;
+    margin-bottom: 50px;
+}
+
+.stack1,
+.stack2,
+.stack3{
+    text-align: center;
+    margin-bottom: 40px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius:10px;
+    box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.486);
+    width: 200px;
+}
+
+.stack1 img,
+.stack2 img,
+.stack3 img{
+    width: 100%;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+.firstTechStack,
+.secondTechStack,
+.thirdTechStack{
+    display: inline-block;
+}
+
+footer{
+    background-color:#CABDD9 ;
+    padding: 30px 0;
+}
+
+.footerCont{
+    text-align: center;
+}
+
+.footerCont h1{
+    font-family: Satisfy;
+    font-size: 24px;
+    letter-spacing: -1px;
+    font-size: 3em;
+    cursor: pointer;
+    color: white;
+}
+
+.footerMenu{
+    margin: 30px 0;
+}
+
+.footerCont li a{
+    display: block;
+    padding: 20px 0;
+    color: black;
+    font-size: 1.5em;
+    font-family:BarlowCondensed;
+    font-weight: 600;
+}
+
+.footerCont li a:hover{
+   background-color: white;
+}
+
+.socialPlatforms img{
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+.socialPlatforms img:hover{
+    background-color: white;
+}

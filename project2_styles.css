@@ -1,0 +1,10 @@
+@font-face {
+    font-family:BarlowCondensed;
+    src: url(fonts/BarlowCondensed-Light.ttf);
+}
+
+h1{
+    font-size: 5em;
+    font-family:BarlowCondensed;
+    font-size: 600;
+}
